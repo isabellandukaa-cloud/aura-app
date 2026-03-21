@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Aura App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #07001a;
+      --purple: #a855f7;
+      --white: #ffffff;
+      --muted: rgba(255,255,255,0.6);
+      --faint: rgba(255,255,255,0.1);
+    }
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: 'Jost', sans-serif;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+    .orb {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .orb1 { width: 400px; height: 400px; background: radial-gradient(circle, #7c3aed55, transparent); top: -100px; left: -100px; }
+    .orb2 { width: 300px; height: 300px; background: radial-gradient(circle, #be185d44, transparent); bottom: 10%; right: -80px; }
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      backdrop-filter: blur(20px);
+      background: rgba(7,0,26,0.6);
+      border-bottom: 1px solid var(--faint);
+    }
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 28px;
+      font-weight: 700;
+      background: linear-gradient(135deg, #f0abfc, #ffffff, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    .nav-back {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+      letter-spacing: 1px;
+      transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--white); }
+    main {
+      position: relative;
+      z-index: 1;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 120px 24px 80px;
+    }
+    .page-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 52px;
+      font-weight: 700;
+      background: linear-gradient(135deg, #f0abfc, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+    .page-date {
+      color: var(--muted);
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-bottom: 48px;
+    }
+    .policy-section {
+      margin-bottom: 40px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--faint);
+      border-radius: 20px;
+      padding: 32px;
+    }
+    .policy-section h2 {
+      font-family: 'Jost', sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      color: #c084fc;
+      margin-bottom: 16px;
+      letter-spacing: 0.5px;
+    }
+    .policy-section p {
+      color: var(--muted);
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+    .policy-section ul {
+      color: var(--muted);
+      font-size: 15px;
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    .policy-section ul li { margin-bottom: 8px; }
+    .policy-section a { color: #a855f7; }
+    .highlight {
+      background: rgba(168,85,247,0.1);
+      border: 1px solid rgba(168,85,247,0.2);
+      border-radius: 12px;
+      padding: 16px 20px;
+      color: rgba(255,255,255,0.8);
+      font-size: 15px;
+      margin-bottom: 32px;
+    }
+    footer {
+      position: relative;
+      z-index: 1;
+      border-top: 1px solid var(--faint);
+      padding: 32px 24px;
+      text-align: center;
+      color: rgba(255,255,255,0.3);
+      font-size: 13px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Aura</a>
+    <a href="index.html" class="nav-back">← Back to Home</a>
+  </nav>
+
+  <main>
+    <h1 class="page-title">Privacy Policy</h1>
+    <p class="page-date">Last updated: March 2026</p>
+
+    <div class="highlight">
+      ✦ The short version: Aura stores all your data locally on your device. We do not collect, sell or share your personal information with anyone.
+    </div>
+
+    <div class="policy-section">
+      <h2>1. Introduction</h2>
+      <p>Welcome to Aura ("we", "our", or "us"). This Privacy Policy explains how we handle information when you use our Aura mobile application ("App").</p>
+      <p>We are committed to protecting your privacy. By using Aura, you agree to the practices described in this policy.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>2. Information We Collect</h2>
+      <p>Aura is designed with your privacy in mind. Here is what we store and where:</p>
+      <ul>
+        <li><strong>Local device storage only:</strong> Your name, favourite affirmations, custom affirmations, journal entries, theme preferences, streak data and notification settings are all stored locally on your device using AsyncStorage.</li>
+        <li><strong>No account required:</strong> Aura does not require you to create an account or provide an email address.</li>
+        <li><strong>No analytics:</strong> We do not track your usage, screen views or behaviour within the app.</li>
+        <li><strong>No advertising:</strong> We do not serve ads or share data with advertising networks.</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>3. Notifications</h2>
+      <p>If you enable daily reminders, Aura will request permission to send you local notifications. These notifications are scheduled entirely on your device — no data is sent to our servers. You can disable notifications at any time in your device settings or within the app.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>4. In-App Purchases</h2>
+      <p>Aura offers optional premium features through in-app purchases. These transactions are processed entirely by Google Play or the Apple App Store. We do not have access to your payment information. Purchase history is managed by your app store account.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>5. Third-Party Services</h2>
+      <p>Aura may use the following third-party services:</p>
+      <ul>
+        <li><strong>Google Play / Apple App Store:</strong> For app distribution and in-app purchases.</li>
+        <li><strong>Expo (EAS):</strong> For app building and over-the-air updates. Expo may collect minimal crash and performance data. See <a href="https://expo.dev/privacy" target="_blank">Expo's Privacy Policy</a>.</li>
+        <li><strong>RevenueCat (future):</strong> For managing in-app subscriptions. See <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat's Privacy Policy</a>.</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>6. Children's Privacy</h2>
+      <p>Aura is not directed to children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will take steps to delete it.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>7. Data Security</h2>
+      <p>Since all your data is stored locally on your device, its security depends on your device's security settings. We recommend keeping your device updated and using a screen lock for your protection.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>8. Data Deletion</h2>
+      <p>You can delete all your Aura data at any time by uninstalling the app from your device. This will permanently remove all locally stored data including your name, favourites, journal entries and preferences.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>9. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the "Last updated" date at the top of this page. Continued use of Aura after changes constitutes acceptance of the updated policy.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>10. Contact Us</h2>
+      <p>If you have questions about this Privacy Policy or how we handle your data, please contact us:</p>
+      <ul>
+        <li>Email: <a href="mailto:support@aura-app.com">support@aura-app.com</a></li>
+        <li>Website: <a href="https://aura-app.com">aura-app.com</a></li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Aura App · <a href="index.html" style="color: #a855f7;">Home</a> · <a href="mailto:support@aura-app.com" style="color: #a855f7;">Contact</a>
+  </footer>
+
+</body>
+</html>
